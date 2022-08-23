@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(28, 31, 33);
+}
+
+.ask {
+    color: rgb(195, 223, 224);
+    padding: 5%;
+    font-family: 'Silkscreen', monospace;
+    position: absolute;
+    top: 11%;
+    left: 5%;
+}
+
+label {
+    color:rgb(195, 223, 224);
+    font-weight: bold;
+}
+
+.heyGitmo {
+    color: rgb(92, 246, 74);
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.gitmoHead {
+    padding-left: 8%;
+    padding-top: 18%;
+    position: relative;
+}
+
+#text {
+    width: 100%;
+    height: 55vh;
+    background-color:  rgb(57, 62, 65);
+    color: rgb(92, 246, 74);
+    border: 4px solid rgb(195, 223, 224);
+    border-radius: 3%;
+    padding: 2%;
+    margin-right: 5%;
+    box-shadow: inset 0 0 12px rgb(28, 31, 33);
+    font-family: 'Source Code Pro', monospace;
+}
+
+#input {
+    padding: 5%;
+}
+
+.row {
+    height: 100%;
+}
+
+#gitmo {
+    width: 50%;
+}
+
+.btn {
+    background-color: rgb(195, 223, 224);
+    width: 12%;
+    min-width: fit-content;
+    margin-right: 1%;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color:rgb(92, 246, 74);
+}
+
+.btn:active {
+    color:rgb(92, 246, 74);
+    font-size: 85%;
+}
+
+.btn:focus {
+    color:rgb(92, 246, 74)
+}
+
+.buttons {
+    margin-top: 1%;
+}
+
+#play-button {
+    margin-left: 1%;
+}
